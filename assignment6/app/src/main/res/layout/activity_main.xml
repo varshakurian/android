@@ -8,10 +8,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.varsha.toast.MainActivity">
+    android:background="@color/colorAccent"
+    tools:context="com.varsha.toastassign.MainActivity">
 
     <TextView
+        android:text="Android developer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toast example...!" />
-</RelativeLayout>
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2"
+        android:onClick="onClick"/>
+    </RelativeLayout>

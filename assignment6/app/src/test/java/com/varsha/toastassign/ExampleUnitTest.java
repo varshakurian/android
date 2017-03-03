@@ -1,4 +1,4 @@
-package com.varsha.toast;
+package com.varsha.toastassign;
 
 import org.junit.Test;
 
